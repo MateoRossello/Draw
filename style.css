@@ -1,0 +1,88 @@
+body {
+    font-family: monospace;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    height: 80%;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button
+{
+    font-family: monospace;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    background-color: #368dea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover
+{
+    background-color: #193cae
+}
+
+textarea
+{
+    margin: 20px;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    font-size: 1.125rem;
+    border-radius: 5px;
+    resize: none;
+}
+
+input
+{
+    font-family: monospace;
+    margin: 10px;
+    width: 20%;
+    height: 2%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0.8px solid rgb(118, 118, 118);
+    caret-color: transparent;
+}
+
+#winners
+{
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    width: 50%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  color: gray;
+  font-size: 0.8rem;
+}
